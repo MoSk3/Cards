@@ -6,7 +6,9 @@
     "paths": {
       "@": ["./src"],
       "@/*": ["./src/*"],
+      "@assets/*": ["./assets/*"],
       "@components/*": ["./src/components/*"]
     }
-  }
+  },
+  "include": ["src", "declarations.d.ts", "nativewind-env.d.ts"]
 }

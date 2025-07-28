@@ -17,7 +17,7 @@ export const Colors = {
       900: "#173144", // near black
     },
     gray: {
-      50: "#ffffff", // pure white
+      50: "#fafbfe", // pure white
       100: "#f8f9fa", // very light gray, subtle blue cast
       200: "#e9edf1", // light gray with a cool undertone
       300: "#d9dee4", // neutral-light with hint of icy blue
