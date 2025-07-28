@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* CSS variables will be set dynamically by React */
+  --color-primary-50: #f3fbff;
+  --color-primary-100: #e5f6fe;
+  --color-primary-200: #d2effd;
+  --color-primary-300: #bfe7fc;
+  --color-primary-400: #9edafb;
+  --color-primary-500: #78c8fa;
+  --color-primary-600: #5ca1d3;
+  --color-primary-700: #427ca9;
+  --color-primary-800: #2b5676;
+  --color-primary-900: #173144;
+
+  --color-gray-50: #ffffff;
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9edf1;
+  --color-gray-300: #d9dee4;
+  --color-gray-400: #b0b7c0;
+  --color-gray-500: #8a919c;
+  --color-gray-600: #6d7480;
+  --color-gray-700: #565c66;
+  --color-gray-800: #3f444d;
+  --color-gray-900: #2b2f36;
+
+  --color-accent-50: #faf5fc;
+  --color-accent-100: #f2e6fa;
+  --color-accent-200: #e7d1f7;
+  --color-accent-300: #dbb9f4;
+  --color-accent-400: #cea2f3;
+  --color-accent-500: #d597f2;
+  --color-accent-600: #b172cc;
+  --color-accent-700: #8c57a3;
+  --color-accent-800: #663e77;
+  --color-accent-900: #40284d;
+}
+
+body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+}
